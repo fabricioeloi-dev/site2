@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoções</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+      body {
+        height: 100vh;
+        background-image: url('images/portogalinhas.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      div.footer {
+        background-color: rgba(128, 128, 128, 0.504);
+        height: 50px;
+        color: beige;
+      }
+      div.titlemain {
+        background-color: rgba(128, 128, 128, 0.504);
+        height: 50px;
+        width: 30%;
+        border-radius: 10px;
+        padding: 5px;
+        color: beige;
+      }
+  </style>
+  </head>
+<body>
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <a class="navbar-brand" href="index.html">Eloi's Tur</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Página Inicial <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html">História</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Destinos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="promocoes.html">Promoções</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="galeria.html">Galeria</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="contato.html">Contato</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+    </nav>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <div class=" titlemain col-11 m-auto">
+      <h3 class="text-center">Promoções</h3>
+      </div>
+      <hr>
+      <div class="card-group col-11 m-auto g-4">
+        <div class="card">
+          <img class="card-img-top" src="images/canoaquebrada.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Canoa Quebrada</h5>
+            <p class="card-text"><del>De R$:499,99</del> <strong>Por: R$: 399,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Informações</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+              <p>Com Acompanhante, com direito a hospedagem passeios e café da manhã, aceitamos cartão parcelamento em até 10x</p>
+          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/jericoacoara.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Jericoacoara</h5>
+            <p class="card-text"><del>De R$:350,00</del> <strong>Por: R$: 259,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Jericoacoara</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+              <p>Com Acompanhante, com direito a hospedagem passeios e café da manhã, aceitamos cartão parcelamento em até 10x</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/lencois.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Lençóis Maranhenses</h5>
+            <p class="card-text"><del>De R$:599,99</del> <strong>Por: R$: 399,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card-group col-11 m-auto g-4">
+        <div class="card">
+          <img class="card-img-top" src="images/cataratasdoniaguara.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Cataratas do Iguaçu</h5>
+            <p class="card-text"><del>De R$:1.590,00</del> <strong>Por: R$: 1.399,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/riojaneiro.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Rio de Janeiro</h5>
+            <p class="card-text"><del>De R$:1.499,99</del> <strong>Por: R$: 1.349,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/ubajara.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Ubajara</h5>
+            <p class="card-text"><del>De R$:249,90</del> <strong>Por: R$: 179,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card-group col-11 m-auto g-4">
+        <div class="card">
+          <img class="card-img-top" src="images/portogalinhas.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Porto de Galinhas</h5>
+            <p class="card-text"><del>De R$:499,99</del> <strong>Por: R$: 399,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/icaraiamontada.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Icarai de Amontada</h5>
+            <p class="card-text"><del>De R$:199,99</del> <strong>Por: R$: 99,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/genipabu.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Praia de Genipabu</h5>
+            <p class="card-text"><del>De R$:499,99</del> <strong>Por: R$: 329,90</strong></p>
+            <small style="color:grey;">Com Acompanhante, com direito a hospedagem passeios e café da manhã</small>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalExemplo">Saiba mais</button>
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+              <p>Com Acompanhante, com direito a hospedagem passeios e café da manhã, aceitamos cartão com parcelamento em até 10x.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <br>
+      <br>
+      <br>
+      <div class="footer">      
+        <footer>
+          <br>
+          <p class="text-center">&copy; Eloi's Tur</p>
+        </footer>
+      </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
